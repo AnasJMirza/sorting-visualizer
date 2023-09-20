@@ -10,3 +10,28 @@
   width: 2px;
   background-color: crimson;
 }
+
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  color: white;
+}
+
+.coming-soon {
+  color: rgb(252, 208, 12);
+  font-size: 10px;
+}
